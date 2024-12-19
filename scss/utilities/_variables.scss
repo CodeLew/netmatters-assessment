@@ -1,0 +1,121 @@
+// Colors
+$primary-color: #323544;
+$secondary-color: #ffffff;
+$cta-color: #f8b600;
+$light-gray: #f1f1f1;
+$dark-gray: #333;
+
+// Breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (min-width: $md) {
+      width: 750px;
+  }
+
+  @media (min-width: $lg) {
+      width: 970px;
+  }
+
+  @media (min-width: $xl) {
+      width: 1200px;
+  }
+}
+header {
+  background-color: $primary-color;
+  padding: 20px 0;
+
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo a {
+          color: $secondary-color;
+          font-size: 2rem;
+          text-decoration: none;
+      }
+
+      .menu ul {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+      }
+
+      .menu ul li a {
+          color: $secondary-color;
+          text-decoration: none;
+          font-size: 1rem;
+      }
+  }
+}
+.banner {
+  background-image: url('path_to_banner_image.jpg');
+  background-size: cover;
+  color: $secondary-color;
+  padding: 60px 0;
+  text-align: center;
+
+  .cta-button {
+      background-color: $cta-color;
+      padding: 10px 20px;
+      color: $secondary-color;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+}
+.training-program {
+  background-color: $light-gray;
+  padding: 40px 0;
+  text-align: center;
+
+  .program-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+      text-align: left;
+  }
+
+  .cta-button {
+      background-color: $cta-color;
+      padding: 12px 30px;
+      margin-top: 20px;
+      color: $secondary-color;
+      font-size: 1.1rem;
+      border: none;
+      cursor: pointer;
+  }
+}
+footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 20px 0;
+  text-align: center;
+
+  .social-links {
+      margin-top: 10px;
+
+      a {
+          color: $secondary-color;
+          margin: 0 10px;
+          text-decoration: none;
+      }
+  }
+}
+//

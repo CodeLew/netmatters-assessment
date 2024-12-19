@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+header {
+  background-color: #323544;
+  padding: 20px 0;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .logo a {
+  color: #ffffff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+header .navbar .menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header .navbar .menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.banner {
+  background-image: url("path_to_banner_image.jpg");
+  background-size: cover;
+  color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+.banner .cta-button {
+  background-color: #f8b600;
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.training-program {
+  background-color: #f1f1f1;
+  padding: 40px 0;
+  text-align: center;
+}
+.training-program .program-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+.training-program .cta-button {
+  background-color: #f8b600;
+  padding: 12px 30px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #323544;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+footer .social-links {
+  margin-top: 10px;
+}
+footer .social-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
