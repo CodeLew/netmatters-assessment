@@ -105,5 +105,31 @@ footer .social-links a {
   margin: 0 10px;
   text-decoration: none;
 }
+footer .footer-logo {
+  width: 250px;
+}
+footer h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 26px;
+}
+footer p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 26px;
+}
+footer p p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  margin-bottom: 26px;
+  line-height: 1.375rem;
+}
+
+* {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /*# sourceMappingURL=styles.css.map */
